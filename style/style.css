@@ -25,6 +25,17 @@ header {
 #lifestyle h5 {
     margin-top: 10px !important;
 }
+.text-center{
+    text-align: center;
+}
+#newsletter h3 {
+    padding-top: 40px;
+}
+#newsletter input {
+    margin-top: 50px;
+    border-bottom-color: black !important;
+    width: 450px;
+}
 @media screen and (max-width: 1200px) {
         #lifestyle .row .col {
             padding: 0;
