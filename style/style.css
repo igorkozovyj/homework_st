@@ -13,3 +13,9 @@ nav {
     background-color: white !important;
     box-shadow: none !important;
 }
+header {
+    margin-bottom: 15px;
+}
+#photodiary h4{
+    margin-top: 0px;
+}
