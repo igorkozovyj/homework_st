@@ -35,9 +35,22 @@ header {
     margin-top: 50px;
     border-bottom-color: black !important;
     width: 450px;
+    margin-bottom: 50px;
+}
+#posts {
+    margin-top: 100px;
+}
+#posts a {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 @media screen and (max-width: 1200px) {
         #lifestyle .row .col {
+            padding: 0;
+        }
+        #posts .row .col {
             padding: 0;
         }
 }
