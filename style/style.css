@@ -19,3 +19,14 @@ header {
 #photodiary h4{
     margin-top: 0px;
 }
+#lifestyle {
+    margin-top: 100px;
+}
+#lifestyle h5 {
+    margin-top: 10px !important;
+}
+@media screen and (max-width: 1200px) {
+        #lifestyle .row .col {
+            padding: 0;
+        }
+}
