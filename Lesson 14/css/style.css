@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+p {
+    display: flex;
+    align-items: center;
+}
+img {
+    width: 25px;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+input#lname, input#confpass {
+    margin-left: 10px;
+}
+.block input, select{
+    width: 100%;
+}
+.block:last-child {
+    margin-left: 15px;
+}
+.block:last-child input, select {
+    border: 0;
+    border-bottom: 1px solid;
+    padding: 10px;
+    outline: 0;
+}
+input[type="date"] {
+    margin-left: 10px;
+    padding: 5px !important;
+
+}
+select , input[type="date"]{
+    padding: 8.5px !important;
+}
+.bgr {
+    box-shadow: 1px 3px 5px 1px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.bgr > div {
+    padding: 15px;
+}
+.asd {
+    display: none;
+    opacity: 0;
+}
+@media (min-width: 600px)and (max-width: 899px) {
+    .container {
+        flex-direction: column;
+    }
+    .bgr {
+        display: flex;
+    }
+    .block:last-child {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 200px)and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .bgr {
+        display: flex;
+    }
+    .block:last-child {
+        margin-left: 0px;
+    }
+    .block input, select {
+        width: 80%;
+    }
+    p {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .asd {
+        display: block;
+        opacity: 0;
+    }
+    input#lname, input#confpass {
+        margin-left: 0px;
+    }
+    .bl2 input, select{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+input[type="submit"] {
+    background-color: #62c3c3;
+    color: white;
+    border: 0;
+    padding: 10px 54px;
+    border-radius: 3px;
+}
+.button-block p {
+    justify-content: flex-end;
+}

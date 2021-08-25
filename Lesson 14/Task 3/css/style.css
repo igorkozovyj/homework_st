@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    padding: 15px;
+    box-shadow: 0px 1px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img {
+    width: 40px;
+}
+.logo, .profile {
+    display: flex;
+    align-items: center;
+}
+header span {
+    margin: 5px;
+}
+li {
+    display: flex;
+    align-items: center;
+}
+main {
+    display: grid;
+    grid-template-areas: 'nav postlist postlist postlist postlist';
+    padding: 50px;
+}
+.nav {
+    grid-area: nav;
+}
+.postlist {
+    grid-area: postlist;
+}
+.icon {
+    width: 15px;
+    margin: 0 5px;
+}
+.post-mail {
+    display: flex;
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+.pers-info {
+    width: 200px;
+    margin: 0 10px;
+}
+.topicandtexxtlist {
+    width: 470px;
+}
+.topicandtexxtlist span {
+    color: rgb(195, 195, 195);
+}
